@@ -21,3 +21,6 @@ class TestInterface:
        
     def getFiles(self):
         return None
+        
+    def cleanup(self):
+        return
