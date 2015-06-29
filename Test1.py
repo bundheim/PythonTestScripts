@@ -8,8 +8,10 @@ Created on Thu Jun 25 13:32:28 2015
 class TestInterface:  
     
     def setup(self):
+        return
     
     def test(self):
+        return
         
     def getResult(self):
         return "p"
