@@ -20,4 +20,7 @@ class TestInterface:
         return "This is a test execution note made by Test1"   
        
     def getFiles(self):
-        return None
+        return {"c:\\vcredist.bmp"}
+        
+    def cleanup(self):
+        return
